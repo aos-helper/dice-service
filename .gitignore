@@ -25,3 +25,4 @@ replay_pid*
 /dice-service-integration-tests/target
 /dice-service/target
 .DS_Store
+/.idea

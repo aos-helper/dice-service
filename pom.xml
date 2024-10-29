@@ -22,5 +22,7 @@
 	<modules>
         <module>dice-service</module>
         <module>dice-service-integration-tests</module>
+		<module>dice-service-client</module>
+		<module>dice-service-api</module>
     </modules>
 </project>

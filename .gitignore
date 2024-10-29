@@ -26,3 +26,5 @@ replay_pid*
 /dice-service/target
 .DS_Store
 /.idea
+/dice-service-client/target
+/dice-service-api/target

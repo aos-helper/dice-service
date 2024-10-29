@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>18</java.version>
+		<spring-cloud.version>2023.0.3</spring-cloud.version>
 	</properties>
 	<modules>
         <module>dice-service</module>

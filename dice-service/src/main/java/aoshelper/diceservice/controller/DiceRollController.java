@@ -1,6 +1,6 @@
 package aoshelper.diceservice.controller;
 
-import aoshelper.diceservice.model.RollResult;
+import aoshelper.common.diceservice.model.RollResult;
 import aoshelper.diceservice.service.DiceRollService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

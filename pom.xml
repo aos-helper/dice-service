@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.4</version>
-	</parent>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.3.4</version>
+    </parent>
 
-	<groupId>aoshelper</groupId>
-	<artifactId>dice-service-parent</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>pom</packaging>
+    <groupId>ml.aoshelper</groupId>
+    <artifactId>dice-service-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-	<description>Knows how to roll dices</description>
+    <description>Knows how to roll dices</description>
 
-	<properties>
-		<java.version>18</java.version>
-		<spring-cloud.version>2023.0.3</spring-cloud.version>
-	</properties>
-	<modules>
+    <properties>
+        <java.version>21</java.version>
+        <spring-cloud.version>2023.0.3</spring-cloud.version>
+    </properties>
+    <modules>
+        <module>dice-service-api</module>
         <module>dice-service</module>
+        <module>dice-service-client</module>
         <module>dice-service-integration-tests</module>
-		<module>dice-service-client</module>
-		<module>dice-service-api</module>
     </modules>
 </project>

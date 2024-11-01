@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>aoshelper</groupId>
+        <groupId>ml.aoshelper</groupId>
         <artifactId>dice-service-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
@@ -26,12 +26,12 @@
         </dependency>
 
         <dependency>
-            <groupId>aoshelper</groupId>
+            <groupId>ml.aoshelper</groupId>
             <artifactId>common-domain</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
-            <groupId>aoshelper</groupId>
+            <groupId>ml.aoshelper</groupId>
             <artifactId>dice-service-api</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -70,24 +70,12 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <excludes>
-                        <exclude>
-                            <groupId>org.projectlombok</groupId>
-                            <artifactId>lombok</artifactId>
-                        </exclude>
-                    </excludes>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
                 <configuration>
-                    <source>18</source> <!-- Or another stable version like 11 or 20 -->
-                    <target>18</target>
+                    <source>21</source> <!-- Or another stable version like 11 or 20 -->
+                    <target>21</target>
                 </configuration>
             </plugin>
         </plugins>
